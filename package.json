@@ -7,13 +7,24 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "document-register-element": "^1.14.10",
+    "vue": "^2.6.14",
+    "vue-axios": "^3.4.1",
+    "vue-custom-element": "^3.3.0",
+    "vuedraggable": "^2.24.3",
+    "vuetify": "^2.6.0",
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.5.1",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.7.0"
   },
   "browserslist": [
     "> 1%",
