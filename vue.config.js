@@ -1,6 +1,9 @@
 const { defineConfig } = require('@vue/cli-service')
 const webpack = require('webpack')
 module.exports = defineConfig({
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/weather-widget/'
+    : '/',
   transpileDependencies: [
     'vuetify'
   ]
