@@ -202,6 +202,7 @@
 
 <script>
 import draggable from 'vuedraggable'
+import { axios } from '@/plugins/axios'
 
 export default {
   name: 'App',
