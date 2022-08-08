@@ -253,6 +253,7 @@ export default {
 
       this.index = index
       this.location = response.data
+      this.city = []
     },
 
     openSettings() {
@@ -295,21 +296,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.v-alert__content {
-  justify-content: space-between !important;
-  display: flex !important;
-  align-items: center;
-}
-.v-list-group .v-list-group__header .v-list-item__icon.v-list-group__header__append-icon {
-  margin: 0 auto 0 auto;
-  min-width: 24px;
-}
-.v-card__text {
-  padding-bottom: 0;
-}
-.v-list-item {
-  flex: unset;
-}
-</style>
